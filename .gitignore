@@ -1,0 +1,8 @@
+bin/
+*.vscode
+build/
+*.h
+*.cpp
+*.cxx
+*.pyc
+resources/config.json

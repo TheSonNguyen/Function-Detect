@@ -1,0 +1,13 @@
+#include "{{Class.Header.FileName}}"
+
+{{Class.Implementation.Includes}}
+
+{{Class.Name}}::{{Class.Name}}()
+{
+}
+
+{{Class.Name}}::~{{Class.Name}}()
+{
+}
+
+{{Class.Implementation.FunctionDefinitions}}

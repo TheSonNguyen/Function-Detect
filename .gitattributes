@@ -1,0 +1,2 @@
+*.py linguist-detectable=false
+resources/gmock_generator linguist-vendored

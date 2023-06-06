@@ -1,0 +1,16 @@
+
+{{Copyright}}
+
+#pragma once
+
+#include <gmock/gmock.h>
+#include "{{Mock.InheritedInterface.FileName}}"
+
+{{Mock.Header.Includes}}
+{{Mock.ForwardDeclares}}
+
+class {{Mock.Name}} : public {{Mock.InheritedInterface.Name}}
+{
+ public:
+{{GMockMacros}}
+{{Mock.HelperFunctions.Declarations}}};

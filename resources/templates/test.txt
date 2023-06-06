@@ -1,0 +1,45 @@
+{{Copyright}}
+
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
+#include <memory>
+
+#include "{{Test.ConcreteFileName}}"
+#include "MockCollaborator1.h"
+#include "MockCollaborator2.h"
+
+using ::testing::NiceMock;
+
+namespace
+{
+    class {{Test.Name}} : public ::testing::Test
+    {
+     protected:
+        {{Test.Name}}(){}
+        ~{{Test.Name}}() override {}
+
+        void SetUp() override
+        {
+            mCollaborator1.reset(new MockCollaborator1());
+            mCollaborator2.reset(new MockCollaborator2());
+            mPatient.reset(new {{Test.ConcreteName}}(*mCollaborator1, *mCollaborator2));
+        }
+
+        void TearDown() override
+        {
+            mPatient.reset();
+            mCollaborator2.reset();
+            mCollaborator1.reset();
+        }
+
+        std::unique_ptr<{{Test.ConcreteName}}> mPatient;
+        std::unique_ptr<NiceMock<MockCollaborator1>> mCollaborator1;
+        std::unique_ptr<NiceMock<MockCollaborator2>> mCollaborator2;
+    };
+
+    TEST_F({{Test.Name}}, CanBeInstantiated)
+    {
+
+    }
+
+} //namespace

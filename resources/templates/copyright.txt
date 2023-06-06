@@ -1,0 +1,6 @@
+/*
+   @file {{FileName}}
+
+   Copyright (C) {{UserInfo.Author}} {{Date}}
+*/
+ 

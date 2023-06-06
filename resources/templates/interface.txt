@@ -1,0 +1,12 @@
+{{Copyright}}
+
+#pragma once
+
+class {{Interface.Name}} 
+{
+ public:
+    virtual ~{{Interface.Name}}(){}
+
+ public:
+
+};

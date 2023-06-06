@@ -1,0 +1,23 @@
+{{Copyright}}
+
+#pragma once
+
+#include "{{Interface.FileName}}"
+{{Class.Header.Includes}}
+#include <QObject>
+
+{{Class.Header.ForwardDeclares}}
+class {{Class.Name}} : public QObject, public {{Interface.Name}}
+{
+Q_OBJECT
+
+ public:
+    explicit {{Class.Name}}();
+    virtual ~{{Class.Name}}();
+
+ public:
+{{Class.Header.FunctionDeclarations}}
+
+ private:
+
+};

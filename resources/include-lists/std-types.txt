@@ -1,0 +1,60 @@
+# All types in this list will be ignored when
+# parsing includes / forward declares from interfaces
+
+short
+short int
+signed short
+signed short int
+unsigned short
+unsigned short int
+int
+signed
+signed int
+unsigned
+unsigned int
+long
+long int
+signed long
+signed long int
+unsigned long
+unsigned long int
+long long
+long long int
+signed long long
+signed long long int
+unsigned long long
+unsigned long long int
+float
+double
+long double
+char
+signed char
+unsigned char
+float
+double
+long double
+wchar_t
+bool
+void
+
+# Qt types from <QtGlobal>
+
+qint8
+qint16
+qint32
+qint64
+qintptr
+qlonglong
+qptrdiff
+qreal
+qsizetype
+quint8
+quint16
+quint32
+quint64
+quintptr
+qulonglong
+uchar
+uint
+ulong
+ushort

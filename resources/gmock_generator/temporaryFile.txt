@@ -1,0 +1,18 @@
+/*
+   @file I_MyFirstClass.h
+
+   Copyright (C) Son Nguyen The 2023
+*/
+ 
+
+
+#pragma once
+
+class I_MyFirstClass 
+{
+ public:
+    virtual ~I_MyFirstClass(){}
+
+ public:
+
+};
