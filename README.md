@@ -4,7 +4,7 @@ This tool was updated base on CppCodeGenerator, [visit below link for more detai
  
  ## Installation
 ```
-git clone https://github.com/TheSonNguyen/GitDemo.git
+git clone https://github.com/TheSonNguyen/Function-Detect.git
 
 ```
  
