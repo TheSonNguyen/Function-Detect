@@ -25,6 +25,7 @@ step 2
 - Test Classes (GoogleTest)
 
 ### Status 
-Updating...
+basically completed
 ## Usage
-Updating...
+
+https://youtu.be/Q-pYxtAG60U
